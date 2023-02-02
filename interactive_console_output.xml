@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on darwin)" generated="20230126 16:22:36.227" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="/Users/tonidzalto/.vscode/extensions/robocorp.robotframework-lsp-1.8.0/src/robotframework_ls/vendored/robotframework_interactive/robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20230126 16:26:11.021" endtime="20230126 16:26:58.176"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20230126 16:30:45.230" endtime="20230126 16:30:55.681"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser.Selenium">
+<arg>locator</arg>
+<arg>text</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230126 16:40:54.427" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.119)
+Stacktrace:
+0   chromedriver                        0x0000000104861fa8 chromedriver + 4886440
+1   chromedriver                        0x00000001047df643 chromedriver + 4351555
+2   chromedriver                        0x000000010442db27 chromedriver + 477991
+3   chromedriver                        0x00000001044030a5 chromedriver + 303269
+4   chromedriver                        0x000000010449d8ef chromedriver + 936175
+5   chromedriver                        0x00000001044b2ad3 chromedriver + 1022675
+6   chromedriver                        0x00000001044983a3 chromedriver + 914339
+7   chromedriver                        0x000000010446257f chromedriver + 693631
+8   chromedriver                        0x0000000104463b1e chromedriver + 699166
+9   chromedriver                        0x000000010482eb9e chromedriver + 4676510
+10  chromedriver                        0x000000010483391e chromedriver + 4696350
+11  chromedriver                        0x000000010483b19f chromedriver + 4727199
+12  chromedriver                        0x000000010483481a chromedriver + 4700186
+13  chromedriver                        0x0000000104807a62 chromedriver + 4516450
+14  chromedriver                        0x00000001048538c8 chromedriver + 4827336
+15  chromedriver                        0x0000000104853a45 chromedriver + 4827717
+16  chromedriver                        0x00000001048697ef chromedriver + 4917231
+17  libsystem_pthread.dylib             0x00007ff80d76b259 _pthread_start + 125
+18  libsystem_pthread.dylib             0x00007ff80d766c7b thread_start + 15
+</msg>
+<status status="FAIL" starttime="20230126 16:40:54.416" endtime="20230126 16:40:54.431"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser.Selenium">
+<arg>username</arg>
+<arg>maria</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230126 16:42:06.335" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.119)
+Stacktrace:
+0   chromedriver                        0x0000000104861fa8 chromedriver + 4886440
+1   chromedriver                        0x00000001047df643 chromedriver + 4351555
+2   chromedriver                        0x000000010442db27 chromedriver + 477991
+3   chromedriver                        0x00000001044030a5 chromedriver + 303269
+4   chromedriver                        0x000000010449d8ef chromedriver + 936175
+5   chromedriver                        0x00000001044b2ad3 chromedriver + 1022675
+6   chromedriver                        0x00000001044983a3 chromedriver + 914339
+7   chromedriver                        0x000000010446257f chromedriver + 693631
+8   chromedriver                        0x0000000104463b1e chromedriver + 699166
+9   chromedriver                        0x000000010482eb9e chromedriver + 4676510
+10  chromedriver                        0x000000010483391e chromedriver + 4696350
+11  chromedriver                        0x000000010483b19f chromedriver + 4727199
+12  chromedriver                        0x000000010483481a chromedriver + 4700186
+13  chromedriver                        0x0000000104807a62 chromedriver + 4516450
+14  chromedriver                        0x00000001048538c8 chromedriver + 4827336
+15  chromedriver                        0x0000000104853a45 chromedriver + 4827717
+16  chromedriver                        0x00000001048697ef chromedriver + 4917231
+17  libsystem_pthread.dylib             0x00007ff80d76b259 _pthread_start + 125
+18  libsystem_pthread.dylib             0x00007ff80d766c7b thread_start + 15
+</msg>
+<status status="FAIL" starttime="20230126 16:42:06.330" endtime="20230126 16:42:06.336"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser.Selenium">
+<arg>username</arg>
+<arg>maria</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230126 16:42:23.855" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.119)
+Stacktrace:
+0   chromedriver                        0x0000000104861fa8 chromedriver + 4886440
+1   chromedriver                        0x00000001047df643 chromedriver + 4351555
+2   chromedriver                        0x000000010442db27 chromedriver + 477991
+3   chromedriver                        0x00000001044030a5 chromedriver + 303269
+4   chromedriver                        0x000000010449d8ef chromedriver + 936175
+5   chromedriver                        0x00000001044b2ad3 chromedriver + 1022675
+6   chromedriver                        0x00000001044983a3 chromedriver + 914339
+7   chromedriver                        0x000000010446257f chromedriver + 693631
+8   chromedriver                        0x0000000104463b1e chromedriver + 699166
+9   chromedriver                        0x000000010482eb9e chromedriver + 4676510
+10  chromedriver                        0x000000010483391e chromedriver + 4696350
+11  chromedriver                        0x000000010483b19f chromedriver + 4727199
+12  chromedriver                        0x000000010483481a chromedriver + 4700186
+13  chromedriver                        0x0000000104807a62 chromedriver + 4516450
+14  chromedriver                        0x00000001048538c8 chromedriver + 4827336
+15  chromedriver                        0x0000000104853a45 chromedriver + 4827717
+16  chromedriver                        0x00000001048697ef chromedriver + 4917231
+17  libsystem_pthread.dylib             0x00007ff80d76b259 _pthread_start + 125
+18  libsystem_pthread.dylib             0x00007ff80d766c7b thread_start + 15
+</msg>
+<status status="FAIL" starttime="20230126 16:42:23.851" endtime="20230126 16:42:23.856"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser.Selenium">
+<arg>username</arg>
+<arg>maria</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230126 16:42:43.823" level="FAIL">
